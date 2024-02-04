@@ -1,9 +1,0 @@
-puts "Name user"
-name = gets.chomp
-
-puts "Height user"
-height = gets.chomp
-
-weight = (<height> - 110) * 1.15
-
-end.
