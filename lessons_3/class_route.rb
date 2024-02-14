@@ -1,5 +1,5 @@
 class route
-	attr_reader stations;
+	attr_reader :stations;
 
   def initialize (begin_station, end_station)
 	@stations = [begin_station, end_station]
@@ -10,8 +10,8 @@ class route
 	@stations_insert = (#"-2", "name_station")
   end
 
-  def del_intermediate_station : (name_station)
-	@station_delete (name_station) unless [@station.first, @stations.last].include?(name_station)
+  def del_intermediate_station (name_station)
+	@station_delete (name_station) unless [@station.first, @station.last].include?(name_station)
   end
 
   def list_all_station
