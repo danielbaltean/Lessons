@@ -1,8 +1,8 @@
-puts "side"
-side = gets.to_i
+puts "side_triangle"
+side = gets.to_f
 
-puts "height"
-height = gets.to_i
+puts "height_triangle"
+height = gets.to_f
 
-Square = 1 / 2 * a * h
+puts "area_triangle = {(side * height) / 2} cm2"
 end
