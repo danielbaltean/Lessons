@@ -11,12 +11,12 @@ d = b**2 - 4 * a * c
 
 if d > 0 
   square(d) = Math.sqrt(d)
-  x1 = (-b + square(d)) / 2c
-  x2 = (b + square(d)) / 2c
+  x1 = (-b + square(d)) / 2*c
+  x2 = (b + square(d)) / 2*c
   puts "Enter discriminant #{D}"
   puts "Enter 2 square #{x1} , #{x2}" 
 elsif d == 0 
-  x1= (-b + square(d)) / 2c
+  x1= (-b + square(d)) / 2*c
   puts "Enter discriminant #{D}"
   puts "Enter #{2x}"
 else d < 0
